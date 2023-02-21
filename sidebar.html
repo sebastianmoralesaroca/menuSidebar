@@ -8,12 +8,11 @@
         <title>Menu Sidebar</title>
     </head>
     <body>
-        <button class="btnBurger"><a href=""><img class="menuBurgerImg" src="./menu-burger.png" alt=""></a></button>
-        <div class="containerMenu">
-        <nav class="menu">
+        <button class="btnBurger" id="btnBurger"><a href=""><img class="menuBurgerImg" src="./menu-burger.png" alt=""></a></button>
+        <div class="containerMenu" id="containerMenu" onclick="container()">
+        <nav class="menu" id="menu">
             <h2>MENU DESPLEGABLE</h2>
             <button class="cancelarBnt"><a class="cancelarA" href=""><img class="cancelarImg" src="./cancelar.png" alt=""></a></button>
-            
             <ul class="list">
                 <li class="listElement1">
                     <a href="">HOME</a>
@@ -47,7 +46,6 @@
             </ul>
         </nav>
     </div>
-
     <script src="./sidebar.js"></script>
 </body>
 </html>

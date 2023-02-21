@@ -1,18 +1,18 @@
 console.log("hello") ;
 
+const btnBurger = document.getElementById("btnBurger");
+const containerMenu = document.getElementById("containerMenu");
+const menu = document.getElementById("menu");
 
 
-/*
-valor = 0 ;
-
-magico.addEventListener("click", () => {
+btnBurger.addEventListener("click", function container (onclick) {
+    let valor = 0 ;
     valor = valor + 1 ;
     console.log (valor) ;
     if (valor == 1) {
-        boton.style.display = "none";
+        containerMenu.style.display = "block";
     } else {
         valor = 0 ;
-        boton.style.display = "block"
+        containerMenu.style.display = "block" ;
     }
 });
-*/

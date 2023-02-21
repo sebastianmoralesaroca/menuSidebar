@@ -11,6 +11,7 @@ body {
     background-color: #102F43;
     width: 500px;
     height: 600px;
+    display: none;
 }
 
 .menu {
@@ -101,4 +102,10 @@ button {
     height: 50px;
     position: absolute;
     margin-left: 90%;
+}
+
+#bye {
+    height: 100px;
+    width: 100px;
+    background-color: red;
 }
