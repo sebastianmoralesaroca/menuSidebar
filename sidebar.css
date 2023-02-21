@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0b1e2a;
+}
+
+.containerMenu {
+    background-color: #102F43;
+    width: 500px;
+    height: 600px;
+}
+
+.menu {
+
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3498db;
+    display: inline;
+    margin-left: 60px;
+    margin-right: 160px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.cancelarA {
+    background-color: transparent;
+
+}
+
+.cancelarImg {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.listElement1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.listElement1:hover {
+    background-color: #3498db;
+}
+
+.listElement1 a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: #979a9a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 285px;
+}
+
+.listElement1 a:hover {
+    color: black;
+}
+
+.list2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.listElement2 {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.listElement2 a img {
+    width: 25px;
+    height: 25px;
+}
+
+.btnBurger {
+    position: absolute;
+    margin-left: 90%;
+}
+
+.btnBurger .menuBurgerImg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 90%;
+}
